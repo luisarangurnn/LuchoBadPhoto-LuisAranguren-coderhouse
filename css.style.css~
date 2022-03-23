@@ -1,0 +1,8 @@
+footer {
+  background-color: blue;
+}
+footer p {
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=css.style.css~.map */
