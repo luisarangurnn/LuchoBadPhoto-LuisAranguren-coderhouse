@@ -1,2 +1,29 @@
 @import "../components/footer";
 @import "../base/variables";
+@import "../base/extends";
+@import "../base/operadores";
+@import "../base/mixin";
+
+
+
+.main_index{
+
+    .main_index-servicio{
+        @extend %flexcolumn;
+
+        .servicio{
+            .servicio_svg{
+                @include svg()
+            }
+        }
+    }
+
+    }
+
+.footer_total{
+    background-color: map-get($map: $paletaDeColores, $key: 'colorSecundario' );
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,18 @@
+footer {
+  background-color: blue;
+}
+footer .footer_total {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+footer p {
+  text-align: justify;
+  font-size: 35px;
+  text-decoration: none;
+  color: yellow;
+}
+footer a {
+  align-items: flex-end;
+}
+
+/*# sourceMappingURL=style.css~.map */
